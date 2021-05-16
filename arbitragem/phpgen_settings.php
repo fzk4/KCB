@@ -68,10 +68,9 @@ function GetPagesHeader()
 {
     return
         '<br>
-Cadastramento de árbitros e staff para atuar no 28º Troféu São Paulo de Karate Interestilos<br>
-Data: 02 de Maio/2021 - Ginásio Mauro Pinheiro - Ibirapuera
+Cadastramento de árbitros e staff para atuar 
 <br>
-Rua Abílio Soares, 1300 - Paraíso - São Paulo - SP
+em campeonatos do sistema KCB-CBKI
 <br>';
 }
 
