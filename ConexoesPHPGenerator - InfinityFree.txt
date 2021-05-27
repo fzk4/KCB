@@ -1,0 +1,13 @@
+//InfinityFree Conexão das organizações para cadastro e inscrição dos atletas e contagem de cadastrados e inscritos
+function GetGlobalConnectionOptions()
+{
+    return
+        array(
+          'server' => 'sql105.epizy.com',
+          'port' => '3306',
+          'username' => 'epiz_26996120',
+          'database' => 'epiz_26996120_kcboficial',
+          'password' => 'cvRzCWEygmKGv',
+          'client_encoding' => 'utf8'
+        );
+}

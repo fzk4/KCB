@@ -25,15 +25,6 @@ $grants = array('guest' =>
     'dokyokushinlavras' => 
         array('staff' => new PermissionSet(false, false, false, false))
     ,
-    'fkcombatgua' => 
-        array('staff' => new PermissionSet(false, false, false, false))
-    ,
-    'heikokaiabc' => 
-        array('staff' => new PermissionSet(false, false, false, false))
-    ,
-    'heikokaisantoandre' => 
-        array('staff' => new PermissionSet(false, false, false, false))
-    ,
     'Rosangela' => 
         array('staff' => new PermissionSet(false, false, false, false))
     ,
@@ -72,6 +63,15 @@ $grants = array('guest' =>
     ,
     'sonodabrasil' => 
         array('staff' => new PermissionSet(false, false, false, false))
+    ,
+    'fkcombat' => 
+        array('staff' => new PermissionSet(false, false, false, false))
+    ,
+    'sonodaabc' => 
+        array('staff' => new PermissionSet(false, false, false, false))
+    ,
+    'sonodasantoandre' => 
+        array('staff' => new PermissionSet(false, false, false, false))
     );
 
 $appGrants = array('guest' => new PermissionSet(false, false, false, false),
@@ -79,9 +79,6 @@ $appGrants = array('guest' => new PermissionSet(false, false, false, false),
     'adminkcb' => new AdminPermissionSet(),
     'budokaisp' => new PermissionSet(true, false, true, false),
     'dokyokushinlavras' => new PermissionSet(true, false, true, false),
-    'fkcombatgua' => new PermissionSet(true, false, true, false),
-    'heikokaiabc' => new PermissionSet(true, false, true, false),
-    'heikokaisantoandre' => new PermissionSet(true, false, true, false),
     'Rosangela' => new PermissionSet(true, true, true, true),
     'seishincajamar' => new PermissionSet(true, false, true, false),
     'senshikaiipero' => new PermissionSet(true, false, true, false),
@@ -90,11 +87,14 @@ $appGrants = array('guest' => new PermissionSet(false, false, false, false),
     'sokyokushincaragua' => new PermissionSet(true, false, true, false),
     'sokyokushintaubate' => new PermissionSet(true, false, true, false),
     'toeikanembu' => new PermissionSet(true, false, true, false),
-    'toeikanmogisuzano' => new PermissionSet(false, false, false, false),
-    'toeikansp' => new PermissionSet(false, false, false, false),
+    'toeikanmogisuzano' => new PermissionSet(true, false, true, false),
+    'toeikansp' => new PermissionSet(true, false, true, false),
     'toeikanguararema' => new PermissionSet(true, false, true, false),
     'cobrakai' => new PermissionSet(true, false, true, false),
-    'sonodabrasil' => new PermissionSet(true, false, true, false));
+    'sonodabrasil' => new PermissionSet(true, false, true, false),
+    'fkcombat' => new PermissionSet(true, false, true, false),
+    'sonodaabc' => new PermissionSet(true, false, true, false),
+    'sonodasantoandre' => new PermissionSet(true, false, true, false));
 
 $dataSourceRecordPermissions = array();
 
